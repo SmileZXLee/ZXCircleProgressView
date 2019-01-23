@@ -4,6 +4,7 @@
 
 # Demo
 
+```
 - (void)viewDidLoad {
 [super viewDidLoad];
 NSArray *titlesArr = @[@"test1",@"test2",@"test3",@"test4",@"test5"];
@@ -17,3 +18,5 @@ self.progressView = V;
 UISegmentedControl *segV = (UISegmentedControl *)sender;
 self.progressView.index = segV.selectedSegmentIndex;
 }
+
+```
